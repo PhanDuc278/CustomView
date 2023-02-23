@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Training_Android</string>
+    <string name="error">*フィールドは必須項目です。</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:elevation="8dp"
+    android:layout_margin="20dp"
+    android:outlineAmbientShadowColor="#000000"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtItemValue1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/notosansjp_medium"
+            android:drawableLeft="@drawable/menu"
+            android:text="QR発行前テキスト"
+            android:layout_margin="12dp"
+            android:textColor="#333333"/>
+        <TextView
+            android:id="@+id/txtValue2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/notosansjp_medium"
+            android:drawableLeft="@drawable/menu"
+            android:text="QR発行前強調テキスト"
+            android:layout_margin="12dp"
+            android:textColor="#333333"/>
+        <TextView
+            android:id="@+id/txtValue3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/notosansjp_medium"
+            android:drawableLeft="@drawable/menu"
+            android:text="QR発行後テキスト "
+            android:layout_margin="12dp"
+            android:textColor="#333333"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

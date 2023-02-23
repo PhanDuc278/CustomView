@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="textView" format="string" />
+        <attr name="hintText" format="string"/>
+        <attr name="textError" format="string"/>
+    </declare-styleable>
+</resources>
